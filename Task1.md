@@ -10,7 +10,11 @@
 
 1. Создай префаб своего персонажа из первой недели (или с одного из прошлых [вебинаров](https://github.com/copetonrob/YP_Unity_M3_W2) )
 
+Если пропустил вебинар про персонажа, можешь взять нашего [Тык](https://github.com/copetonrob/YP_Unity_M3_W5/blob/main/packages/character.unitypackage)
+
 2. Перенеси префаб на сцену с мобами из прошлого [вебинара](https://github.com/copetonrob/YP_Unity_M3_W4)
+
+Если пропустил вебинар, возьми пример сцены с мобами [тут](https://github.com/copetonrob/YP_Unity_M3_W5/blob/main/packages/webinar4.unitypackage)
 
 3. Удали или отключи лишнюю камеру (не ту, которая в персонаже).
 
