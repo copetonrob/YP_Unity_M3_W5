@@ -6,6 +6,23 @@
 
 ## Требования
 
-1. Измени условие нахождения игрока в метода CheckPlayer(). Сейчас там стоит условие "Если игрок находится в поле зрения моба с углом не больше чем ViewAngle". Добавь свойство float MinDetectDistance и добавь условие "или игрок находится ближе чем minDetectDistance".
+1. Измени условие нахождения игрока в метода CheckPlayer(). Сейчас там стоит условие "Если игрок находится в поле зрения моба с углом не больше чем ViewAngle". Добавь поле float MinDetectDistance и добавь условие "или игрок находится ближе чем minDetectDistance".
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W5/blob/main/img/code_change.png" width="600"/>
+```csharp
+    bool CheckPlayer()
+    {
+        Vector3 direction = Player.position - transform.position;
+        //if (Vector3.Angle(transform.forward, direction) < ViewAngle)
+        {
+            RaycastHit hit;
+            //if (Physics.Raycast(transform.position + Vector3.up, ???, out hit))
+            {
+                //if (hit.transform == ???)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+```
